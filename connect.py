@@ -9,8 +9,6 @@ def connectDB():
     # For example, if your database is running on localhost, the connection string might look like this:
     # "mongodb://localhost:27017/"
 
-    #mongodb+srv://eren:databasepass306@cluster0.tzm05ou.mongodb.net/
-    #mongodb://admin:pass@localhost:27017/?authMechanism=DEFAULT
     connection_string = "mongodb://admin:pass@localhost:27017/?authMechanism=DEFAULT"
     client = MongoClient(connection_string)
 
@@ -21,4 +19,3 @@ def connectDB():
     # Close the connection when you're done
     # client.close()
 
-#databasepass306
